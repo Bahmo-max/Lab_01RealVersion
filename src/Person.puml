@@ -1,0 +1,17 @@
+@startuml
+class Person {
+    - String firstName
+    - String lastName
+    - String ID
+    - int age
+
+    + Person(String firstName, String lastName, String ID, int age)
+    + getFirstName(): String
+    + getLastName(): String
+    + getID(): String
+    + getAge(): int
+    + toCSV(): String
+    + toJSON(): String
+    + toXML(): String
+}
+@enduml

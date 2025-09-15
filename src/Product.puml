@@ -1,0 +1,17 @@
+@startuml
+class Product {
+    - String name
+    - String description
+    - String ID
+    - double cost
+
+    + Product(String name, String description, String ID, double cost)
+    + getName(): String
+    + getDescription(): String
+    + getID(): String
+    + getCost(): double
+    + toCSV(): String
+    + toJSON(): String
+    + toXML(): String
+}
+@enduml

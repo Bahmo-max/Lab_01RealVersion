@@ -1,0 +1,3 @@
+P001,John Laptop,Gaming Laptop,1000.0
+P002,Johnny Phone,Smartphone,700.0
+P003,Charles Helmet, Xavier's Power,300.0

@@ -1,0 +1,17 @@
+@startuml
+class SafeObj {
+    - String ID
+    - String value
+    - boolean locked
+
+    + SafeObj(String ID, String value)
+    + getID(): String
+    + getValue(): String
+    + isLocked(): boolean
+    + lock(): void
+    + unlock(): void
+    + toCSV(): String
+    + toJSON(): String
+    + toXML(): String
+}
+@enduml
